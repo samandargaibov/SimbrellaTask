@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    width: 100%;
+    position: fixed;
+    color: rgb(229, 229, 230);
+}
+.header{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 110px;
+    max-width: 1140px;
+}
+.navbar a{
+    color: #fff;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .3s;
+}
+.navbar a:hover{
+    color: orange;
+}
+.index{
+    height: 100vh;
+}
+.index .background{
+    background-image: linear-gradient(to bottom, rgb(70 67 63 / 55%) 0%, rgb(114 86 65 / 0%) 80%),  url(https://www.simbrella.com/site/assets/files/1040/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.index .background .all-text{
+    padding: 250px 24rem;
+    width: 75%;
+    color: #fff;
+
+}
+.all-text h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.all-text .b-text p{
+    font-size: 17px;
+}
+.whatwedo{
+    height: 600px;
+}
+.h-general{
+    width: 60%;
+    padding-top: 35px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.h-general h1{
+    font-size: 35px;
+    color: blue;
+}
+.h-general .h-right a{
+    display: inline-block;
+    padding: 0 50px 0 24px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 56px;
+    line-height: 56px;
+    border-color: #a19a9a;
+}
+.h-general .h-right{
+    border: 3px solid #c2c0c0;
+    border-radius: 15px;
+    padding: 0 1rem;
+    transition: .5s;
+}
+.h-general .h-right:hover{
+    border-color: orange;
+}
+.categories{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 32%;
+    padding: 40px 20px;
+    text-align: center;
+    border: 1px solid rgb(184, 184, 185);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+.box:hover{
+    transform: scale(1.05);
+}
+.box .images{
+    width: 100%;
+    position: relative;
+    height: 230px;
+}
+.box h1{
+    margin-bottom: 15px;
+}
+.box p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #858383;
+}
+.s-photo{
+    height: 800px;
+    background-image: url(https://www.simbrella.com/site/assets/files/1049/solutions_bg-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.s-photo .left-side{
+    width: 50%;
+    color: #fff;
+    font-size: 37px;
+}
+.s-photo .left-side h1{
+    width: 51%;
+    margin: auto;
+    padding-top: 20rem;
+}
+.s-photo .right-side{
+    width: 50%;
+    font-size: 30px;
+    background-color: rgb(4, 4, 196);
+    opacity: .5;
+    padding: 13rem 10rem;
+}
+.s-photo .right-side h3{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 23px;
+    color: #fff;
+}
+.s-photo .right-side .divider{
+    width: 80%;
+    color: #fff;
+}
